@@ -1,6 +1,6 @@
-let Num = document.getElementById("number")
+let Num = document.getElementById("number");
 
-let n = Number(Num)
+let n = Number(Num);
 
 function tallOpp() {
 
@@ -9,10 +9,10 @@ function tallOpp() {
 }
 
 function tallNed() {
-
+    
     n--;
     return document.getElementById("number").innerHTML = ""+n;
 
 }
 
-console.log(Num)
+console.log(Num);
