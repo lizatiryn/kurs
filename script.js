@@ -5,13 +5,13 @@ let n = Number(Num);
 function tallOpp() {
 
     n++;
-    return document.getElementById("number").innerHTML = ""+n;
+    return document.getElementById("number").innerHTML = `${n}`;
 }
 
 function tallNed() {
     
     n--;
-    return document.getElementById("number").innerHTML = ""+n;
+    return document.getElementById("number").innerHTML = `${n}`;
 
 }
 
