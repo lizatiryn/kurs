@@ -6,6 +6,7 @@ function tallOpp() {
 
     n++;
     return document.getElementById("number").innerHTML = `${n}`;
+    
 }
 
 function tallNed() {
