@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduksjon</title>
+    <title>Tall</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
   </head>
   <body>
     <span><a class="main" href="index.html">Back to main</a></span>
-    <button onclick="changeBkgCol()" class="topRight">Night mode</button>
+    <div>
+      <h1>Tall</h1>
+      <p id="number">0</p>
+      <span>
+        <button onclick="tallOpp()">tall opp</button>
+        <button onclick="tallNed()">tall ned</button>
+      </span>
+    </div>
   </body>
 </html>
