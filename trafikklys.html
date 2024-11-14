@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafikklys</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+	<span><a class="main" href="index.html">Back to main</a></span>
+    <div id="traflys">
+
+      <p class="trafikk" id="red"></p>
+      <p class="trafikk" id="yellow"></p>
+      <p class="trafikk" id="green"></p>
+
+      <span>
+			<button onclick="listener('red')" id="redB">red</button>
+			<button onclick="listener('yellow')" id="yellowB">red and yellow</button>
+         <button onclick="listener('green')" id="greenB">green</button>
+      </span>
+		<span><button onclick="autoLys()">Auto</button></span>
+		
+    </div>
+  </body>
+</html>

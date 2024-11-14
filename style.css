@@ -1,13 +1,23 @@
 * {
+  text-decoration: none;
+}
+
+body {
   background-color: darkolivegreen;
   color: rgb(82, 194, 100);
-  text-align: center;
-  text-decoration: none;
 }
 
 #number {
   color: rgb(210, 231, 18);
   font-size: 50px;
+
+}
+
+.tall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
@@ -20,18 +30,18 @@ button {
   font-size: 25px;
 }
 
-ul {
+div.conteiner ul {
   display: grid;
   text-align: center;
   justify-content: center;
 }
 
 h1 {
-  margin: 30px 0 50px 0;
+  margin: 30px 0 30px 0;
   font-size: 50px;
 }
 
-li {
+div.conteiner li {
   list-style: none;
   font-size: 40px;
   height: 100px;
@@ -40,14 +50,15 @@ li {
   width: 600px;
 }
 
-li a {
+div.conteiner li a {
   display: block;
+  color: azure;
   background-color: black;
   height: 100%;
   width: 100%;
 }
 
-li a:hover {
+div.conteiner li a:hover {
   background-color: rgb(45, 64, 45);
 }
 
@@ -56,7 +67,7 @@ li a:hover {
 }
 
 .main {
-  position: fixed;
+  position: static;
   font-size: large;
   text-align: left;
   left: 20px;
@@ -72,4 +83,84 @@ button.topRight {
   border-radius: 0;
   background-color: black;
   font-size: 20px;
+}
+
+.intro {
+  color: azure;
+}
+
+div.intro {
+  padding: 50px 0;
+}
+
+div.intro span {
+  font-size: 20px;
+}
+div.intro img {
+  display: block;
+  margin: 20px;
+}
+
+div.intro ul li {
+  background: none;
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+  color: azure;
+  font-size: 25px;
+  width: auto;
+  height: auto;
+}
+
+
+#traflys{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 124, 89);
+}
+
+#traflys span{
+  margin: 20px;
+}
+
+#traflys p{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+.trafikk{
+  background-color: aliceblue;
+}
+
+#funpar{
+  margin: 10px 0;
+}
+
+.ver1{
+  font-size: 30px;
+  width: 600px;
+  background-color: rgb(20, 154, 164);
+  color: rgb(0, 0, 0);
+}
+
+.ver2{
+  font-size: 20px;
+  width: 400px;
+  background-color: blueviolet;
+  color: rgb(80, 255, 170);
 }
