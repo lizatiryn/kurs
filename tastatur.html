@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span><a class="main" href="index.html">Back to main</a></span>
+
+    <div>
+      <textarea name="inputarea" placeholder="Type your text now" id="tastaoutput"></textarea>
+
+      <p class="tastarow">
+        <button onclick="getChar(this)" class="tastatur">q</button>
+        <button onclick="getChar(this)" class="tastatur">w</button>
+        <button onclick="getChar(this)" class="tastatur">e</button>
+        <button onclick="getChar(this)" class="tastatur">r</button>
+        <button onclick="getChar(this)" class="tastatur">t</button>
+        <button onclick="getChar(this)" class="tastatur">y</button>
+        <button onclick="getChar(this)" class="tastatur">u</button>
+        <button onclick="getChar(this)" class="tastatur">i</button>
+        <button onclick="getChar(this)" class="tastatur">o</button>
+        <button onclick="getChar(this)" class="tastatur">p</button>
+      </p>
+      <p class="tastarow">
+        <button onclick="getChar(this)" class="tastatur">a</button>
+        <button onclick="getChar(this)" class="tastatur">s</button>
+        <button onclick="getChar(this)" class="tastatur">d</button>
+        <button onclick="getChar(this)" class="tastatur">f</button>
+        <button onclick="getChar(this)" class="tastatur">g</button>
+        <button onclick="getChar(this)" class="tastatur">h</button>
+        <button onclick="getChar(this)" class="tastatur">j</button>
+        <button onclick="getChar(this)" class="tastatur">k</button>
+        <button onclick="getChar(this)" class="tastatur">l</button>
+      </p>
+      <p class="tastarow">
+        <button onclick="getChar(this)" class="tastatur">z</button>
+        <button onclick="getChar(this)" class="tastatur">x</button>
+        <button onclick="getChar(this)" class="tastatur">c</button>
+        <button onclick="getChar(this)" class="tastatur">v</button>
+        <button onclick="getChar(this)" class="tastatur">b</button>
+        <button onclick="getChar(this)" class="tastatur">n</button>
+        <button onclick="getChar(this)" class="tastatur">m</button>
+      </p>
+      <p class="tastarow"><button onclick="getChar('space')" id="space" class="tastatur">Space</button></p>
+
+		<button id="clear" onclick="getChar('clear')">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

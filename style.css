@@ -3,14 +3,13 @@
 }
 
 body {
-  background-color: darkolivegreen;
-  color: rgb(82, 194, 100);
+  background-color: rgb(80, 103, 107);
+  color: rgb(162, 85, 118);
 }
 
 #number {
   color: rgb(210, 231, 18);
   font-size: 50px;
-
 }
 
 .tall {
@@ -22,8 +21,8 @@ body {
 
 button {
   border-radius: 20%;
-  border-color: rgb(38, 46, 35);
-  background-color: rgba(36, 36, 8, 0.404);
+  border-color: rgb(35, 35, 46);
+  background-color: rgba(8, 28, 36, 0.404);
   color: white;
   padding: 2px 10px;
   cursor: pointer;
@@ -44,7 +43,7 @@ h1 {
 div.conteiner li {
   list-style: none;
   font-size: 40px;
-  height: 100px;
+  height: 60px;
   background-color: black;
   margin: 10px;
   width: 600px;
@@ -53,13 +52,13 @@ div.conteiner li {
 div.conteiner li a {
   display: block;
   color: azure;
-  background-color: black;
+  background-color: rgb(125, 132, 134);
   height: 100%;
   width: 100%;
 }
 
 div.conteiner li a:hover {
-  background-color: rgb(45, 64, 45);
+  background-color: rgb(57, 45, 64);
 }
 
 .title {
@@ -112,8 +111,7 @@ div.intro ul li {
   height: auto;
 }
 
-
-#traflys{
+#traflys {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,46 +119,104 @@ div.intro ul li {
   background-color: rgb(88, 124, 89);
 }
 
-#traflys span{
+#traflys span {
   margin: 20px;
 }
 
-#traflys p{
+#traflys p {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-.red{
+.red {
   background-color: red;
 }
 
-.yellow{
+.yellow {
   background-color: yellow;
 }
 
-.green{
+.green {
   background-color: green;
 }
 
-.trafikk{
+.trafikk {
   background-color: aliceblue;
 }
 
-#funpar{
+#funpar {
   margin: 10px 0;
 }
 
-.ver1{
+.ver1 {
   font-size: 30px;
   width: 600px;
   background-color: rgb(20, 154, 164);
   color: rgb(0, 0, 0);
 }
 
-.ver2{
+.ver2 {
   font-size: 20px;
   width: 400px;
   background-color: blueviolet;
   color: rgb(80, 255, 170);
+}
+
+#tastaoutput {
+  font-size: 30px;
+  width: 90%;
+  height: 100px;
+  margin: 5%;
+}
+
+.tastarow {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tastarow button {
+  margin: 0 10px;
+}
+
+#space {
+  width: 200px;
+  margin: 10px;
+}
+
+#clear {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+}
+
+#lysp  {
+  margin-top: 20px;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+}
+
+#lights{
+  position: fixed;
+  right: 100px;
+  top: 280px;
+}
+
+#kroko{
+  color: aliceblue;
+  font-size: 30px;
+}
+
+#play{
+  position: fixed;
+  left: 7px;
+  width: 195px;
+}
+
+.hide{
+  display: none;
 }
