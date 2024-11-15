@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(80, 103, 107);
-  color: rgb(162, 85, 118);
+  color: aliceblue;
 }
 
 #number {
@@ -92,12 +92,19 @@ div.intro {
   padding: 50px 0;
 }
 
-div.intro span {
+div.intro span,
+p {
   font-size: 20px;
 }
 div.intro img {
-  display: block;
+  display: flex;
   margin: 20px;
+  width: 15%;
+}
+#cat {
+  display: inline;
+  margin: 0;
+  margin-left: 20px;
 }
 
 div.intro ul li {
@@ -193,30 +200,36 @@ div.intro ul li {
   top: 20px;
 }
 
-#lysp  {
+#lysp {
   margin-top: 20px;
   width: 500px;
   height: 500px;
   background-color: gray;
 }
 
-#lights{
+#lights {
   position: fixed;
   right: 100px;
   top: 280px;
 }
 
-#kroko{
+#kroko {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: aliceblue;
   font-size: 30px;
 }
-
-#play{
-  position: fixed;
+#kroko img {
+  height: 200px;
+  width: 170px;
+}
+#play {
   left: 7px;
   width: 195px;
 }
 
-.hide{
+.hide {
   display: none;
 }

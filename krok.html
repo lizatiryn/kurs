@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<span><a class="main" href="index.html">Back to main</a></span>
-	
-	<div id="kroko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span><a class="main" href="index.html">Back to main</a></span>
 
-		<p id="points">Points: 0</p>
-		<img src="" alt="crocodile">
-		<p id="number1">0</p>
-		<input type="text" name="" id="sign">
-		<p id="number2">0</p>
-	</div>
+    <div id="kroko">
+      <p id="points">Points: 0</p>
+      <img src="./pictures/crocodile.png" alt="crocodile" />
+      <p id="number1">0</p>
+      <input type="text" name="" id="sign" />
+      <p id="number2">0</p>
+      <span>
+        <button onclick="game('submit')" class="hide" id="submit">
+          Submit
+        </button>
+        <button onclick="game('reset')" class="hide" id="reset">Reset</button>
+        <button onclick="game('play')" id="play">PLAY</button>
+      </span>
+    </div>
 
-	<script src="script.js"></script>
-
-	<button onclick="game('submit')" class="hide" id="submit">Submit</button>
-	<button onclick="game('reset')" class="hide" id="reset">Reset</button>
-	<button onclick="game('play')" id="play" >PLAY</button>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
