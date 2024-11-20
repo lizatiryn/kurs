@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjektivhistorie</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script>
+      let time = "_______";
+      let act = "_______";
+      let foract = "_______";
+
+      show();
+      function show() {
+        document.getElementById("app").innerHTML = /*HTML*/ `
+        <span><a class="main" href="index.html">Back to main</a></span>
+        <div id="MVC">
+  <span>Klokka er ${time}</span>
+  <input type="text" onchange="setTime(this.value)" />
+  <span>. Det betyr at jeg må ${act}</span>
+  <input type="text" onchange="setAct(this.value)" />
+  <span>. Men før det skal jeg ${foract}</span>
+  <input type="text" onchange="setForact(this.value)" />
+  <span>.</span>
+</div>
+
+<div>
+  <button onclick="setTime(this.innerHTML)">11:30</button>
+  <button onclick="setTime(this.innerHTML)">9:00</button>
+  <button onclick="setTime(this.innerHTML)">15:00</button>
+  <br />
+  <button onclick="setAct(this.innerHTML)">ta lunsj pause</button>
+  <button onclick="setAct(this.innerHTML)">begynne med IT kurs</button>
+  <button onclick="setAct(this.innerHTML)">gå hjem</button>
+  <br />
+  <button onclick="setForact(this.innerHTML)">bli ferdig med oppgave</button>
+  <button onclick="setForact(this.innerHTML)">gråte litt</button>
+  <button onclick="setForact(this.innerHTML)">si "ha det"</button>
+</div>
+`;
+      }
+
+      function setTime(value) {
+        time = value;
+        show();
+      }
+
+      function setAct(value) {
+        act = value;
+        show();
+      }
+
+      function setForact(value) {
+        foract = value;
+        show();
+      }
+    </script>
+  </body>
+</html>
