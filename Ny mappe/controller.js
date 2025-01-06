@@ -12,3 +12,7 @@ function deleteLine(i){
     todos.splice(i, 1)
     printTodo()
 }
+
+function markAsDone(i){
+
+}

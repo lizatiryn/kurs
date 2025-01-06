@@ -5,7 +5,7 @@ function show(){
     <h1>TO DO</h1>
 
     <input type = "text" onchange='text = this.value'>
-    <button onclick='addTodos()'>Add</button>
+    <button onclick='addTodos()' class = 'add-btn'>Add</button>
     <ul id ='todo-list'></ul>
     `
 }
@@ -17,7 +17,7 @@ function printTodo(){
     for(let i = 0; i < todos.length; i++){
         html += /*html*/ `
             <li>
-                <input type = 'checkbox'>
+                <input onclick ='markAsDone(${i})' type = 'checkbox'>
                 <span>${todos[i]}</span>
                 <button onclick = 'deleteLine(${i})'>X</button>
             </li>
